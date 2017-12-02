@@ -1,0 +1,24 @@
+{
+  "name": "metrobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/oxygen-line-app.git"
+  },
+  "author": "oxygen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "linebot": "^1.3.0",
+    "request": "^2.83.0",
+    "wait.for": "^0.6.6"
+  }
+}
